@@ -39,7 +39,7 @@ public class composeMail {
 		driver.findElement(By.xpath("//input[@placeholder='Subject']")).sendKeys(Keys.TAB);
 		driver.findElement(By.xpath("//div[@aria-label='Message Body']")).sendKeys("Thank u for Monsoon Selenium Training !!!!");
 		driver.findElement(By.xpath("//div[text()='Send']")).sendKeys("Automated Mail");
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 	}
 	
 	@AfterTest
