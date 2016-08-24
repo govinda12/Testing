@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "RegSuite">
+<tests>
+<test name = "LoginTest">
+<classes>
+<class name = "com.composeMail"></class>
+<class name = "com.composeMail"></class>
+</classes>
+</test>
+</tests>
+</suite>
+
+
+
+
+<suite name = "RegSuite">
+<tests>
+<test name = "LoginTest">
+<packages>
+<package name = "p1"></package>
+<package name = "p2"></package>
+</packages>
+</test>
+</tests>
+</suite>

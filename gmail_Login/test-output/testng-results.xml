@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58911" started-at="2016-08-15T06:23:53Z" finished-at="2016-08-15T06:24:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58911" started-at="2016-08-15T06:23:53Z" finished-at="2016-08-15T06:24:52Z">
+      <class name="com.composeMail">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.composeMail@d2cc05a]" name="setup" is-config="true" duration-ms="15170" started-at="2016-08-15T11:53:53Z" finished-at="2016-08-15T11:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginGmail()[pri:0, instance:com.composeMail@d2cc05a]" name="loginGmail" duration-ms="42541" started-at="2016-08-15T11:54:08Z" finished-at="2016-08-15T11:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGmail -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.composeMail@d2cc05a]" name="quit" is-config="true" duration-ms="1168" started-at="2016-08-15T11:54:51Z" finished-at="2016-08-15T11:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.composeMail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
