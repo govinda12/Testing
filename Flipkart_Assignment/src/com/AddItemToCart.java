@@ -16,7 +16,7 @@ public class AddItemToCart {
 
 	@BeforeTest
 	public void setup(){
-		if(browser.equals("chrome")){
+		if(browser.equals("chrome")){1234
 			System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/Chrome2.23/chromedriver_win32/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
