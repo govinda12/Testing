@@ -16,13 +16,13 @@ public class AddItemToCart {
 
 	@BeforeTest
 	public void setup(){
-		/*if(browser.equals("chrome")){
+		if(browser.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/Chrome2.23/chromedriver_win32/chromedriver.exe");
 			driver = new ChromeDriver();
-		}*/
-		//		if(browser.equals("firefox")){
+		}
+				if(browser.equals("firefox")){
 		driver = new FirefoxDriver();
-		//		}
+				}
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -41,7 +41,7 @@ public class AddItemToCart {
 		Random pickRandomSearchListRow = new Random();
 		randomSearchListRow = pickRandomSearchListRow.nextInt(searchListSize);
 		if(randomSearchListRow == 0){
-			randomSearchListRow=randomSearchListRow+1;
+			randomSearchListRow=randomSearchListRow+33333333;
 		}
 
 		int noOfJeans=driver.findElements(By.xpath("//div[@class='_2xw3j-']/div[3]/div["+randomSearchListRow+"]/div")).size();
